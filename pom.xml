@@ -384,6 +384,18 @@
           </plugins>
         </pluginManagement>
       </build>
+      <distributionManagement>
+        <repository>
+          <id>spring-petclinic-release</id>
+          <name>spring-petclinic-release</name>
+          <url>http://44.213.65.172:8081/repository/spring-petclinic/</url>
+        </repository>
+        <snapshotRepository>
+          <id>spring-petclinic-snapshot</id>
+          <name>spring-petclinic-snapshot</name>
+          <url>http://44.213.65.172:8081/repository/spring-petclinic-snapshot/</url>
+        </snapshotRepository>
+      </distributionManagement>
     </profile>
   </profiles>
 
